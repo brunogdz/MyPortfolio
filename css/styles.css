@@ -190,6 +190,7 @@ h2 {
     margin-right: 200px;
     height: 300px;
     max-width: 300px;
+    max-height: 300px;
     justify-content: center;
     background-size: cover;
     border-right: 2px solid #c3caca;
