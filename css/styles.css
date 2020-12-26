@@ -64,7 +64,7 @@ h2 {
 /* Banner */
 #main-banner {
     height: 70vh;
-    background-image: url('../img/fundo.jpeg');
+    background-image: url('fundo.jpeg');
     background-size: cover;
     padding: 15vh;
 }
