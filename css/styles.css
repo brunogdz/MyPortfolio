@@ -249,13 +249,20 @@ footer form {
     margin-right: auto;
 }
 
-footer input, footer textarea{
+footer input, footer textarea, footer form a{
     border: none;
     padding: 15px;
     box-sizing: border-box;
     margin-bottom: 20px;
     width: 100%;
     display: block;
+}
+
+footer form a{
+    padding: 50px 0;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
 }
 
 footer .detail{
