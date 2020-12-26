@@ -4,11 +4,13 @@
         <title>Meu Portfólio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <!-- navbar -->
-        <header>
+        <header id="navbar">
             <img src ="img/LogoF.png" alt="Logotipo">
             <h2>Bruno Gomes de Azevedo</h2>
             <nav>
@@ -22,7 +24,7 @@
         <!-- fim navbar -->
         <!-- banner início -->
         <main>
-            <div id="banner-info">
+            <div id="main-banner">
                 <div id="banner-info">
                     <h1>Hello There! I'm Bruno</h1>
                     <p>Welcome to my Portfolio!</p>
@@ -30,7 +32,7 @@
             </div>
             <!-- banner fim -->
             <!-- sobre inicio -->
-            <section id="about section">
+            <section id="about-section">
                 <h2>Sobre mim</h2>
                 <p>Oi, meu nome é Bruno, atualmente estudo na Universidade Federal do Espirito Santo, programo em C, C++, JavaScript, C#, Python entre outras. Atualmente estou programando em typescript e mexendo com algumas tecnologias, uma delas é o Nodejs.</p>
             </section>
@@ -44,16 +46,15 @@
                     <h3>Desenvolvimento</h3>
                     <p>Minha maior paixão é desenvolver aplicações práticas e que ajudem e auxiliem as pessoas</p>
                     <p class="subtitle">Linguagens que utilizo:</p>
-                    <p>HTLM,CSS,JS,Node,Python,C e C++</p>
+                    <p>HTLM, CSS, JS, Node, Python, Typescript, Java, C e C++</p>
                     <p class="subtitle">Projetos que fiz</p>
                     <p>E-Commercers, Sites, Sistemas, Apps, Chat Bot</p>
                 </div>
-                <div class="skills-container">
-                    <img src="img/projeto.svg" alt="Projetos">
+                <div class="skills-container central">
+                    <img src="img/atividades.svg" alt="Projetos">
                     <h3>Projetos finalizados</h3>
-                    <p>Projetos que já concluí</p>
-                    <p class="subtitle">:</p>
-                    <p>Bot Dmitri, Instagram Clone, Whatsapp Bot, WhatsApp Clone, Amazon Clone, Discord Clone</p>
+                    <p class="subtitle">Projetos que já concluí</p>
+                    <p>Bot Dmitri, Whatsapp Bot, Tinder Clone, Discord Clone, Calculadora em Arvore, Among Us Vanilla, entre outros</p>
                 </div>
                 <div class="skills-container">
                     <img src="img/ideas.svg" alt="Ideias">
@@ -72,14 +73,21 @@
                 <div class="job-box proj2"></div>
                 <div class="job-box proj3"></div>
             </div>
-            <div class="job-container">
-                <div class="job-box proj2"></div>
-                <div class="job-box proj3"></div>
-                <div class="job-box proj1"></div>
-            </div>
         </section>
         <!-- jobs fim -->
         <!-- footer inicio -->
+        <footer>
+            <h2>Me mande uma mensagem</h2>
+            <p>Caso queira falar sobre algum projeto, me contratar ou falar de um projeto feito</p>
+            <img src="img/contact.svg" alt="Entrar Contato">
+            <form action="" method="">
+                <input type="text" name="name" placeholder="Seu nome">
+                <input type="email" name="email" placeholder="Seu email">
+                <textarea name="msg" id="" cols="30" rows="10" placeholder="Me mande uma mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            <p>Desenvolvido por <span class="detail">Bruno Gomes de Azevedo</span></p>
+        </footer>
         <!-- footer fim -->
     </body>
 </html>

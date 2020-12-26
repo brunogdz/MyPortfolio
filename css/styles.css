@@ -1,7 +1,210 @@
 h1 {
-    color: #34495e;
+    color: #FFF;
 }
 
 body {
-    background-color: #18a0da;;
+    background-color: #c3caca;
 } 
+
+body, p, h1, h2, input, textarea {
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* Navbar  #ED1E24*/
+#navbar{
+    background-color: #808080;
+    color: #fff;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+    display: inline-block;
+}
+
+#navbar h2{
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav{
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li{
+    margin: 0 10px;
+}
+
+#navbar-list li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Quando o mouse passa por cima */
+#navbar-list li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* Banner */
+#main-banner {
+    height: 70vh;
+    background-image: url('../img/fundo.jpeg');
+    background-size: cover;
+    padding: 15vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    text-align:left;
+    color: #FFF;
+    padding: 50px;
+}
+
+#banner-info p{
+    width: 200px;
+    font-weight: bold;
+    padding: 1px;
+    text-align: left;
+}
+
+/* About me */
+#about-section {
+    text-align: center;
+    background-color: #c3caca;
+    color: black;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2{
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+/* Skills */
+#skill-section {
+    margin-top: -100px;
+    background-color: #FFF;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+
+#skill-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3caca;
+}
+
+.skills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;    
+}
+
+.central {
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+}
+
+.skills-container h3{
+    font-size: 20px;
+}
+
+.skills-container img{
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #c3caca;
+}
+
+.skills-container .subtitle{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.skills-container p{
+    line-height: 25px;
+}
+
+/* Jobs */
+#jobs-section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#jobs-section h2 {
+    color: #c3caca;
+    margin-bottom: 30px;
+}
+
+#jobs-section p{
+    margin-bottom: 50px;
+}
+
+#jobs-section a{
+    font-weight: bold;
+    color: #c3caca;
+}
+
+#job-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+
+.job-box{
+    flex: 1 1 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    max-width: 300px;
+    justify-content: center;
+    background-size: cover;
+    border-right: 2px solid #c3caca;
+    border-bottom: 2px solid #c3caca;
+}
+
+.proj1 {
+    background-image: url(../img/proj1.jpg);
+
+}
+
+.proj2 {
+    background-image: url(../img/proj2.png);
+}
+
+.proj3 {
+    background-image: url(../img/proj3.png);
+}
