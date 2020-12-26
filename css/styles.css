@@ -184,28 +184,42 @@ h2 {
     
 }
 
-.job-box{
-    flex: 1 1 200px;
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 300px;
-    max-width: 300px;
-    max-height: 300px;
+.job-container{
+    flex: row;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-size: cover;
     border-right: 2px solid #c3caca;
     border-bottom: 2px solid #c3caca;
 }
 
-.proj1 {
-    background-image: url(../img/proj1.jpg);
+.proj1 img{
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #c3caca;
 
 }
 
-.proj2 {
-    background-image: url(../img/proj2.png);
+.proj2 img{
+    height: 300px;
+    padding: 15px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 25px;
+    border-top: 1px solid #c3caca;
+
 }
 
-.proj3 {
-    background-image: url(../img/proj3.png);
+.proj3 img{
+    height: 300px;
+    padding: 15px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 25px;
+    border-top: 1px solid #c3caca;
+
 }
