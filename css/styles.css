@@ -249,7 +249,7 @@ footer form {
     margin-right: auto;
 }
 
-footer input, footer textarea, footer form a{
+footer input, footer textarea{
     border: none;
     padding: 15px;
     box-sizing: border-box;
@@ -259,6 +259,12 @@ footer input, footer textarea, footer form a{
 }
 
 footer form a{
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
     padding: 50px 0;
     background-color: black;
     color: #FFF;
