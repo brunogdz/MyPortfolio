@@ -11,13 +11,15 @@
     <body>
         <!-- navbar -->
         <header id="navbar">
+            <a href="#">
             <img src ="img/LogoF.png" alt="Logotipo">
+            </a>
             <h2>Bruno Gomes de Azevedo</h2>
             <nav>
                 <ul id="navbar-list">
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#about-section">Sobre</a></li>
+                    <li><a href="#jobs-section">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -70,30 +72,41 @@
             <p>Aqui estão os meus trabalhos mais rescentes, para ver todos <a href="https://github.com/brunogomes98">Clique Aqui.</a></p>
             <div class="job-container">
                 <div class="job-box proj1">
+                    <a href= "https://github.com/brunogomes98/Bot-Dmitri-Nodejs" target="_blank">
                     <img src="img/proj1.jpg" alt="Projeto1">
+                    </a>
                 </div>
                 <div class="job-box proj2">
+                    <a href= "https://github.com/brunogomes98/CloneTinder" target="_blank">
                     <img src="img/proj2.png" alt="Projeto2">
+                    </a>
                 </div>
                 <div class="job-box proj3">
-                    <img src="img/proj3.png" alt="Projeto3">
+                   
+                    <a href= "https://github.com/brunogomes98/AmongUsJS_Reactor" target="_blank">
+                        <img src="https://img.estadao.com.br/fotos/crop/640x400/resources/jpg/6/0/1601898270406.jpg" alt="Projeto3">
+                    </a>
+                    
                 </div>
             </div>
         </section>
         <!-- jobs fim -->
         <!-- footer inicio -->
-        <footer>
-            <h2>Me mande uma mensagem</h2>
-            <p>Caso queira falar sobre algum projeto, me contratar ou falar de um projeto feito</p>
-            <img src="img/contact.svg" alt="Entrar Contato">
-            <form action="" method="">
-                <input type="text" name="name" placeholder="Seu nome">
-                <input type="email" name="email" placeholder="Seu email">
-                <textarea name="msg" id="" cols="30" rows="10" placeholder="Me mande uma mensagem"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-            <p>Desenvolvido por <span class="detail">Bruno Gomes de Azevedo</span></p>
-        </footer>
+        <section id="contact">
+            <footer>
+                <h2>Me mande uma mensagem</h2>
+                <p>Caso queira falar sobre algum projeto, me contratar ou falar de um projeto feito</p>
+                <img src="img/contact.svg" alt="Entrar Contato">
+                <form action="" method="">
+                    <input type="text" name="name" placeholder="Seu nome">
+                    <input type="email" name="email" placeholder="Seu email">
+                    <textarea name="msg" id="" cols="30" rows="10" placeholder="Me mande uma mensagem"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+                <p>Desenvolvido por <span class="detail">Bruno Gomes de Azevedo</span></p>
+            </footer>
+        </section>
+        
         <!-- footer fim -->
     </body>
 </html>
