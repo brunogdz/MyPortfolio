@@ -330,4 +330,45 @@ footer .detail{
     #skill-section .container{
         flex-direction: column;
     }
+
+    .skills-container h3, .skills-container .subtitle{
+        font-size: 1.3rem;
+    }
+
+    .skills-container {
+        padding: 25px;
+    }
+
+    .skills-container .central{
+        border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+    }
+
+    #jobs-section h2, #jobs-section p{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .jobs-container{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .job-box {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    footer{
+        padding: 50px 15px;
+    }
+
+    footer form{
+        width: 100%;
+    }
+    .detail {
+        margin-top: 10px;
+        display: block;
+    }
 }
